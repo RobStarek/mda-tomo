@@ -1,0 +1,33 @@
+
+#Measurement settings for acquire.py
+
+[general]
+averaging = 1 #number of samples from multimeter and also works as integration time (secs) in case of counter
+filename = "wp_1_2_5_6_check_58_0" #output filename (suffix .h5 is added automatically)
+
+[tomo_generators]
+path = 'user_tomo_generators' #module (.py) with user iterators
+iterators = ['check_tomo_58_n', 'check_tomo_58_c', 'process_1_qubit', 'calibrated_process_1_qubit'] #list of iterators to be measured within this datafile
+
+#USB information used to localize comport of measurement devices
+[device_usb_info]
+waveplates = { vid = 0x403, pid = 0x6001, sn = "ST170829"}
+ttiV = { vid = 0x403, pid = 0x6001, sn = "ST170832"}
+ttiH = { vid = 0x403, pid = 0x6001, sn = "ST170830"}
+
+[wpselection] #select roles for waveplates
+wp_prep = ['HWP1', 'QWP2'] #order is : hwp, qwp
+wp_proj = ['HWP5', 'QWP6']
+wp_set = []
+
+[wpdef]
+HWP1 = {id = 1, x0 = 58.000} #id is controller address, x0 is angular position of optical axis in degrees with respect mount home pos.
+QWP2 = {id = 2, x0 = 54.852}
+#QWP2 = {id = 2, x0 = 144.852}
+HWP5 = {id = 5, x0 = 0.383}
+#QWP6 = {id = 6, x0 = 124.474}
+QWP6 = {id = 6, x0 = 34.474}
+HWP3 = {id = 3, x0 = 12.0} #id is controller address, x0 is angular position of optical axis in degrees with respect mount home pos.
+QWP4 = {id = 4, x0 = -35.429}
+HWP13 = {id = 13, x0 = 64.0}
+QWP14 = {id = 14, x0 = 87.47}
