@@ -23,7 +23,7 @@
     * calibration data for waveplates 1, 2, 5, 6
     * it is organized the same way as `wp_3_4_13_14_cal8qwp.h5`
     * Here we added 90 degrees f0r angular calibration of quarter-wave plates.
-    * It turns out that when we get the fast/slow axis in the disagreement with the model, the calibration fail.
+    * It turns out that when we get the fast/slow axis in the disagreement with the model, the calibration fails.
     * This is demonstrated in `wp_1_2_5_6_check_8_90.h5`, where calibrated results are worse than the reference.
 
 * `wp_1_2_5_6_cal8_0.h5` -
@@ -36,7 +36,7 @@
 * `depol_wp_1_2_5_6_cal_8.h5` - 
     * input beam was depolarized by partial insertion of the HWP rotated at 45
     * the resulting beam input into the two preparation waveplates was therefore a mixture of H and V
-    * the result is similar up to 
+    * the result is to main data - slight depolarization is not a critical problem
 
 * `wp_3_4_13_14_c_proc_qwp.h5` and `wp_3_4_13_14_n_proc_qwp.h5`
     * Process tomography of quarter wave plate that was used in between preparation and projection.
