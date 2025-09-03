@@ -1,0 +1,5 @@
+100 ml iters
+50 samples
+5 sigma
+poissonian distribution
+32 states
