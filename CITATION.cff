@@ -38,6 +38,9 @@ identifiers:
   - type: doi
     value: 10.48550/arXiv.2407.13011
     description: Preprint of the related article.
+  - type: doi
+    value: 10.1088/2058-9565/ae1320
+    description: Published version in Quantum Science and Technology
 repository-code: 'https://github.com/RobStarek/mda-tomo/'
 abstract: >-
   This repository contains data and simulations for the
