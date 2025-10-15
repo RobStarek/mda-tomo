@@ -1,6 +1,6 @@
 # Measurement-device agnostic quantum tomography - data and code
 
-* Data and simulations for the "Measurement-device agnostic quantum tomography" paper.
+* Data and simulations for the "Measurement-device agnostic quantum tomography" paper [doi:10.1088/2058-9565/ae1320](https://iopscience.iop.org/article/10.1088/2058-9565/ae1320).
 * Preprint version is available on ArXiv: [https://arxiv.org/abs/2407.13011](https://arxiv.org/abs/2407.13011).
 * This repository contains simulations, acquisition software and data processing scripts.
 ---
